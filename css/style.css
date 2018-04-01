@@ -428,6 +428,8 @@ input[type="radio"].visually-hidden {
   }
   .programs__image--blue {
     display: none;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
   }
 }
 @media (min-width: 1280px) {
@@ -1426,7 +1428,7 @@ input[type="radio"].visually-hidden {
   .categories__item--chosen {
     width: 70px;
     height: 30px;
-    padding-top: 2px;
+    padding-top: 0px;
     padding-bottom: 5px;
     background-color: white;
     border-radius: 25px;
@@ -1458,7 +1460,7 @@ input[type="radio"].visually-hidden {
   .categories__item--chosen:before {
     content: "";
     position: absolute;
-    top: -5px;
+    top: -7px;
     left: 0;
     width: 70px;
     height: 30px;
