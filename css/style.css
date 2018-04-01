@@ -164,7 +164,7 @@ input[type="radio"].visually-hidden {
 @media (min-width: 1280px) {
   .page-header__title {
     margin-top: 0;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     margin-left: 0;
     margin-right: 0;
     font-size: 88px;
@@ -327,11 +327,11 @@ input[type="radio"].visually-hidden {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    width: 1200px;
+    width: 1155px;
     padding-top: 0;
     padding-bottom: 0;
     padding-left: 13px;
-    padding-right: 13px;
+    padding-right: 58px;
     margin-top: 0;
     margin-left: auto;
     margin-right: auto;
@@ -472,7 +472,7 @@ input[type="radio"].visually-hidden {
     -webkit-transition: 0.5s;
     transition: 0.5s;
     margin-top: 24px;
-    margin-bottom: 24px;
+    margin-bottom: 5px;
   }
 }
 @media (min-width: 320px) {
@@ -509,7 +509,8 @@ input[type="radio"].visually-hidden {
     line-height: 24px;
     color: white;
     font-weight: 400;
-    margin-bottom: 60px;
+    margin-top: 0;
+    margin-bottom: 50px;
     -webkit-transition: 0.5s;
     transition: 0.5s;
   }
@@ -571,7 +572,7 @@ input[type="radio"].visually-hidden {
     line-height: 24px;
     color: #191919;
     font-weight: 400;
-    margin-bottom: 20px;
+    margin-bottom: 18px;
   }
 }
 @media (min-width: 320px) {
@@ -991,12 +992,12 @@ input[type="radio"].visually-hidden {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    width: 1200px;
+    width: 1170px;
     padding-top: 0;
     padding-bottom: 0;
     padding-left: 13px;
-    padding-right: 13px;
-    margin-top: 135px;
+    padding-right: 43px;
+    margin-top: 130px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 0;
@@ -1032,6 +1033,7 @@ input[type="radio"].visually-hidden {
     margin-top: 0;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 55px;
     width: 750px;
     color: #262626;
     text-align: center;
@@ -1070,7 +1072,7 @@ input[type="radio"].visually-hidden {
 @media (min-width: 1280px) {
   .information__description {
     margin-top: 0;
-    margin-bottom: 55px;
+    margin-bottom: 45px;
     margin-left: auto;
     margin-right: auto;
     width: 1030px;
@@ -1079,6 +1081,7 @@ input[type="radio"].visually-hidden {
     font-size: 18px;
     line-height: 28px;
     font-weight: 100;
+    letter-spacing: 0.1px;
   }
 }
 @media (min-width: 320px) {
@@ -1234,10 +1237,10 @@ input[type="radio"].visually-hidden {
     padding-bottom: 0;
     padding-left: 13px;
     padding-right: 13px;
-    margin-top: 100px;
+    margin-top: 105px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
     background-color: transparent;
   }
 }
@@ -1312,10 +1315,10 @@ input[type="radio"].visually-hidden {
     padding-top: 0;
     padding-bottom: 0;
     padding-left: 0;
-    padding-right: 0;
+    padding-right: 25px;
     margin: 0;
     list-style: none;
-    width: 450px;
+    width: 495px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1476,7 +1479,7 @@ input[type="radio"].visually-hidden {
   .categories__item--chosen:before {
     content: "";
     position: absolute;
-    top: -5px;
+    top: -7px;
     left: 0;
     width: 120px;
     height: 41px;
