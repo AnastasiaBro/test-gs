@@ -1136,13 +1136,19 @@ input[type="radio"].visually-hidden {
     font-weight: 500;
     text-transform: uppercase;
     text-decoration: none;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
   }
   .information__link:hover {
     color: #0059ff;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
   }
   .information__link:active {
     color: #0059ff;
     opacity: 0.5;
+    -webkit-transition: 0s;
+    transition: 0s;
   }
 }
 @media (min-width: 320px) {
@@ -1359,13 +1365,19 @@ input[type="radio"].visually-hidden {
     text-decoration: none;
     position: relative;
     z-index: 1;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
   }
   .categories__item-link:hover {
     color: #005999;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
   }
   .categories__item-link:active {
     color: #005999;
     opacity: 0.5;
+    -webkit-transition: 0s;
+    transition: 0s;
   }
 }
 @media (min-width: 1280px) {
@@ -1626,6 +1638,7 @@ input[type="radio"].visually-hidden {
 }
 @media (min-width: 320px) {
   .categories__picture {
+    display: block;
     width: 290px;
     height: 170px;
     background-color: #fafafa;
@@ -1643,6 +1656,21 @@ input[type="radio"].visually-hidden {
     width: 369px;
     height: 236px;
     background-color: #fafafa;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  .categories__picture:hover {
+    -webkit-box-shadow: 0px 6px 24px 0px rgba(19, 120, 191, 0.5);
+            box-shadow: 0px 6px 24px 0px rgba(19, 120, 191, 0.5);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  .categories__picture:active {
+    -webkit-box-shadow: 0px 6px 24px 0px rgba(19, 120, 191, 0.5);
+            box-shadow: 0px 6px 24px 0px rgba(19, 120, 191, 0.5);
+    opacity: 0.5;
+    -webkit-transition: 0s;
+    transition: 0s;
   }
 }
 @media (min-width: 320px) {
@@ -1687,6 +1715,20 @@ input[type="radio"].visually-hidden {
     font-weight: 400;
     margin-top: 0;
     margin-bottom: 0;
+    text-decoration: none;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  .categories__item-description:hover {
+    color: #005999;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  .categories__item-description:active {
+    color: #005999;
+    opacity: 0.5;
+    -webkit-transition: 0s;
+    transition: 0s;
   }
 }
 @media (min-width: 1280px) {
